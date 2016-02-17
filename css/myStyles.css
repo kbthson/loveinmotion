@@ -1,0 +1,81 @@
+body {
+  background: url("https://scontent-lga3-1.xx.fbcdn.net/hphotos-xla1/t31.0-8/12719356_1027645423940313_3147865509947428367_o.jpg") no-repeat center center fixed;
+  height: auto;
+  font-family: 'Gentium Basic', serif;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+
+}
+
+.jumbotron {
+  box-shadow: 5px 0 5px 5px white;
+  opacity: 0.69;
+  filter: alpha(opacity=99);
+  z-index: 99;
+  background: #1F5F84;
+  color: white;
+}
+
+.center-wrap {
+  text-align: center;
+  margin: auto;
+  size: inherit;
+  display: inline-block;
+}
+
+.row-right {
+  text-align: right;
+}
+
+.row-centered {
+  text-align: center;
+}
+
+.col-centered {
+  display: inline-block;
+  float: none;
+  margin-right: -4px;
+}
+
+h1 {
+  font-size: 700%;
+  color: white;
+  text-shadow: 10px 10px 10px black;
+}
+
+h2 {
+  font-size: 200%;
+  text-shadow: 10px 10px 10px black;
+  font-family: 'La Belle Aurore', cursive;
+}
+
+.opacity {
+  opacity: 1.0;
+  z-index 100;
+}
+
+.box-shadow {
+  box-shadow: 10px 0 20px 10px black;
+}
+
+.custom-font {
+  font-size: 500%;
+  font-family: 'La Belle Aurore', cursive;
+}
+
+.shadow-text {
+  text-shadow: 10px 10px 10px black;
+}
+
+.white-text {
+  color: white
+}
+
+.white-border {
+  border-color: black;
+  border-width: 5px;
+  border-style: solid;
+}
+
