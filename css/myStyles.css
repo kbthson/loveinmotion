@@ -1,20 +1,17 @@
 body {
-  background: url("https://scontent-lga3-1.xx.fbcdn.net/hphotos-xla1/t31.0-8/12719356_1027645423940313_3147865509947428367_o.jpg") no-repeat center center fixed;
+  background: url("../images/jackiebackgroundcolorcorrected.jpg") no-repeat center center fixed;
   height: auto;
   font-family: 'Gentium Basic', serif;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-
 }
 
 .jumbotron {
   box-shadow: 5px 0 5px 5px white;
-  opacity: 0.69;
-  filter: alpha(opacity=99);
+  background: rgba(31, 95, 132, 0.5); 
   z-index: 99;
-  background: #1F5F84;
   color: white;
 }
 
@@ -43,12 +40,15 @@ h1 {
   font-size: 700%;
   color: white;
   text-shadow: 10px 10px 10px black;
+  font-family: 'Alegreya', serif;
+  
 }
 
 h2 {
   font-size: 200%;
   text-shadow: 10px 10px 10px black;
   font-family: 'La Belle Aurore', cursive;
+  padding-bottom: 50px;
 }
 
 .opacity {
